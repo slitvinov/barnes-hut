@@ -171,9 +171,7 @@ main(int argc, char **argv)
                 __LINE__);
         exit(1);
     }
-    barnes_hut_interaction(barnes_hut, theta, -1, xp, yp, &cnt, u, v, m);
     barnes_hut_info(barnes_hut, theta, -1, xp, yp, &cnt, info);
-
     fx = 0;
     fy = 0;
     fprintf(stderr, "%s: cnt = %ld / %ld\n", me, cnt, n);

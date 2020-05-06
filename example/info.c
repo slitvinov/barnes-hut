@@ -27,7 +27,7 @@ static const int Output[] = {
 static void
 usg(void)
 {
-    fprintf(stderr, "%s -p x y -t theta < points\n", me);
+    fprintf(stderr, "%s -p x y -t theta -o [force|leaf|twig] < points\n", me);
     exit(1);
 }
 

@@ -8,7 +8,7 @@ enum { SIZE = 999 };
 static void
 usg(void)
 {
-    fprintf(stderr, "%s points query\n", me);
+    fprintf(stderr, "%s < points\n", me);
     exit(1);
 }
 
